@@ -15,7 +15,7 @@ type Point = {
 /**
  * Represents a 2D Grid of points.
  */
-type Grid = Array<Array<Point>>;
+export type Grid = Array<Array<Point>>;
 
 /**
  * Creates an unmarked Grid sized by the given x,y coordinates.
